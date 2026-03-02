@@ -208,3 +208,60 @@ This section is optional, and learners who want to explore the topics covered so
 - [Running the Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
 - [Jupyter/IPython Notebook Quick Start Guide](https://realpython.com/jupyter-notebook-introduction/)
 - [Get Started With Jupyter Notebook For Python](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+
+# Running, Restarting, and Interrupting Jupyter Kernels
+
+This milestone focuses on understanding how Jupyter kernels work and how to control them safely. Many notebook issues are not caused by code errors, but by kernel state—cells running out of order, stale variables, or long-running executions that were never interrupted.
+
+## Why This Matters
+Common notebook problems include:
+
+- Code working once but failing later
+- Variables mysteriously changing values
+- Cells depending on hidden execution order
+- Kernels freezing during execution
+
+These issues usually come from poor kernel management, not bad logic.
+
+This milestone ensures that:
+
+- Your notebooks behave consistently
+- You can debug issues systematically
+- Reviewers and teammates can reproduce your results
+
+Think of the kernel as the engine of your notebook—this lesson teaches you how to control it.
+
+## What You Are Expected to Do
+This is a kernel control and debugging milestone, not a data analysis task.
+
+You are expected to:
+
+1. **Run Cells in Sequence**
+   - Execute cells one by one
+   - Observe how outputs depend on execution order
+   - Understand that the kernel remembers variables until restarted
+
+2. **Restart the Kernel**
+   - Use the restart option from the Jupyter menu
+   - Observe that variables and memory are cleared
+   - Rerun cells from the top to restore state
+
+3. **Interrupt Execution**
+   - Start a deliberately long-running or infinite operation
+   - Interrupt execution using the interrupt option
+   - Confirm that the notebook remains responsive afterward
+
+4. **Recognize When to Restart vs Interrupt**
+   - Identify scenarios where interrupting is sufficient
+   - Identify scenarios where a full restart is safer
+   - Explain the trade-offs between the two actions
+
+## Video Walkthrough (~2 Minutes)
+Record a short screen-capture video demonstrating kernel control.
+
+Your video must include:
+- Running cells normally
+- Interrupting a running cell
+- Restarting the kernel
+- Rerunning cells after restart
+- Brief explanation of why each action is used
