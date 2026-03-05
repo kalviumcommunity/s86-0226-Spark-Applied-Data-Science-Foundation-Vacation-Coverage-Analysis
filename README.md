@@ -265,3 +265,56 @@ Your video must include:
 - Restarting the kernel
 - Rerunning cells after restart
 - Brief explanation of why each action is used
+
+## Data Organization Milestone: Raw, Processed, and Output Data
+
+### Why Organize Data?
+Organizing data across its lifecycle ensures:
+- Trustworthy and auditable workflows
+- Reproducible results
+- Prevention of data corruption and accidental overwrites
+
+### Folder Structure
+To maintain clean and auditable workflows, organize your data into the following folders:
+
+1. **Raw Data**
+   - Contains the original, untouched source data.
+   - Guidelines:
+     - Store raw data exactly as received.
+     - Never edit or clean raw data directly.
+     - Treat raw data as read-only.
+     - Keep raw data clearly identifiable.
+
+2. **Processed Data**
+   - Contains datasets derived from raw data after cleaning or transformation.
+   - Guidelines:
+     - Save cleaned or transformed datasets separately.
+     - Use clear filenames indicating the processing stage.
+     - Ensure processed data can be recreated from raw data.
+     - Avoid mixing processed files with raw inputs.
+
+3. **Output Artifacts**
+   - Contains final or intermediate results such as plots, tables, reports, or models.
+   - Guidelines:
+     - Store outputs separately from data folders.
+     - Use descriptive names for output files.
+     - Keep outputs easy to locate and review.
+
+### Preventing Data Contamination
+To avoid errors and maintain data integrity:
+- Identify risks of overwriting raw data.
+- Avoid circular dependencies between data stages.
+- Ensure scripts read from raw data and write to processed/output folders.
+- Maintain a one-directional data flow.
+
+### Video Walkthrough
+Record a short screen-capture video (~2 minutes) explaining your data organization. Include:
+- Raw data folder and explanation.
+- Processed data folder and explanation.
+- Output artifacts folder and explanation.
+- Rationale behind separating data stages.
+
+### Submission Guidelines
+- Submit your work as a Pull Request (if required).
+- Submit the video link as instructed.
+- Ensure the video is screen-facing, clearly visible, and approximately 2 minutes long.
