@@ -318,3 +318,36 @@ Record a short screen-capture video (~2 minutes) explaining your data organizati
 - Submit your work as a Pull Request (if required).
 - Submit the video link as instructed.
 - Ensure the video is screen-facing, clearly visible, and approximately 2 minutes long.
+
+## Python Lists, Tuples, and Dictionaries Assignment
+
+### 1. Working with Python Lists
+- Created lists with multiple values.
+- Accessed elements using indexes.
+- Modified, added, and removed elements.
+- Iterated over list items.
+
+### 2. Working with Python Tuples
+- Created tuples with fixed values.
+- Accessed elements using indexes.
+- Observed immutability behavior.
+- Understood when tuples are preferred.
+
+### 3. Working with Python Dictionaries
+- Created dictionaries with meaningful keys.
+- Accessed values using keys.
+- Modified or added key-value pairs.
+- Understood dictionary structure and usage.
+
+### 4. Choosing the Right Data Structure
+- Identified when lists are appropriate.
+- Identified when tuples are safer.
+- Identified when dictionaries are best.
+- Explained choices clearly.
+
+### 5. Video Walkthrough
+- Demonstrated examples of lists, tuples, and dictionaries.
+- Explained differences and use cases.
+- Highlighted immutability in tuples and dynamic nature of lists.
+
+This section documents the completion of the milestone focusing on Python’s core collection data structures.
