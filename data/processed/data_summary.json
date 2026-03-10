@@ -1,0 +1,6 @@
+{
+  "total_districts": 706,
+  "total_states": 36,
+  "vaccination_metrics": 12,
+  "data_file": "../data/processed/vaccination_coverage_clean.csv"
+}

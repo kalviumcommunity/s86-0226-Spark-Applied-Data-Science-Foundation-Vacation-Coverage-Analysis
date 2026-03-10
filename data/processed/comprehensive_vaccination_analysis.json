@@ -1,0 +1,249 @@
+{
+  "analysis_timestamp": "2026-03-10T15:30:29.865302",
+  "regional_disparities": {
+    "under_vaccinated_districts": [
+      {
+        "district": "Ukhrul ",
+        "state": "Manipur",
+        "composite_vaccination_score": 48.925
+      },
+      {
+        "district": "Tuensang ",
+        "state": "Nagaland",
+        "composite_vaccination_score": 49.325
+      },
+      {
+        "district": "East Khasi Hills ",
+        "state": "Meghalaya",
+        "composite_vaccination_score": 54.525
+      },
+      {
+        "district": "Kiphire ",
+        "state": "Nagaland",
+        "composite_vaccination_score": 55.575
+      },
+      {
+        "district": "Banas Kantha ",
+        "state": "Gujarat",
+        "composite_vaccination_score": 55.875
+      },
+      {
+        "district": "Longding ",
+        "state": "Arunachal Pradesh",
+        "composite_vaccination_score": 56.650000000000006
+      },
+      {
+        "district": "Hojai ",
+        "state": "Assam",
+        "composite_vaccination_score": 59.125
+      },
+      {
+        "district": "West Karbi Anglong ",
+        "state": "Assam",
+        "composite_vaccination_score": 59.425
+      },
+      {
+        "district": "Jhansi ",
+        "state": "Uttar Pradesh",
+        "composite_vaccination_score": 60.574999999999996
+      },
+      {
+        "district": "Mewat ",
+        "state": "Haryana",
+        "composite_vaccination_score": 61.39999999999999
+      },
+      {
+        "district": "Longleng ",
+        "state": "Nagaland",
+        "composite_vaccination_score": 62.125
+      },
+      {
+        "district": "Bahraich ",
+        "state": "Uttar Pradesh",
+        "composite_vaccination_score": 62.875
+      },
+      {
+        "district": "Allahabad ",
+        "state": "Uttar Pradesh",
+        "composite_vaccination_score": 63.074999999999996
+      },
+      {
+        "district": "Dhule ",
+        "state": "Maharastra",
+        "composite_vaccination_score": 63.5
+      },
+      {
+        "district": "Deoghar ",
+        "state": "Jharkhand",
+        "composite_vaccination_score": 64.675
+      }
+    ],
+    "state_performance": {
+      "mean": {
+        "Andhra Pradesh": 79.1,
+        "Arunachal Pradesh": 72.6,
+        "Assam": 75.9,
+        "Bihar": 80.4,
+        "Chhattisgarh": 85.5,
+        "Gujarat": 82.4,
+        "Haryana": 84.8,
+        "Jammu & Kashmir": 88.1,
+        "Jharkhand": 81.9,
+        "Karnataka": 87.8,
+        "Kerala": 87.0,
+        "Madhya Pradesh": 84.5,
+        "Maharastra": 80.0,
+        "Manipur": 70.9,
+        "Meghalaya": 75.3,
+        "Mizoram": 79.0,
+        "NCT of Delhi": 82.8,
+        "Nagaland": 62.7,
+        "Odisha": 93.9,
+        "Punjab": 82.7,
+        "Rajasthan": 86.5,
+        "Tamil Nadu": 93.2,
+        "Telangana": 87.2,
+        "Tripura": 75.4,
+        "Uttar Pradesh": 77.5,
+        "Uttarakhand": 90.0,
+        "West Bengal": 90.7
+      },
+      "count": {
+        "Andhra Pradesh": 3,
+        "Arunachal Pradesh": 9,
+        "Assam": 24,
+        "Bihar": 38,
+        "Chhattisgarh": 23,
+        "Gujarat": 21,
+        "Haryana": 17,
+        "Jammu & Kashmir": 12,
+        "Jharkhand": 24,
+        "Karnataka": 13,
+        "Kerala": 3,
+        "Madhya Pradesh": 40,
+        "Maharastra": 18,
+        "Manipur": 8,
+        "Meghalaya": 8,
+        "Mizoram": 6,
+        "NCT of Delhi": 6,
+        "Nagaland": 6,
+        "Odisha": 17,
+        "Punjab": 9,
+        "Rajasthan": 33,
+        "Tamil Nadu": 7,
+        "Telangana": 13,
+        "Tripura": 3,
+        "Uttar Pradesh": 75,
+        "Uttarakhand": 9,
+        "West Bengal": 13
+      }
+    },
+    "statistical_significance": "True",
+    "kruskal_wallis": {
+      "h_statistic": 180.9751694490492,
+      "p_value": 3.6428293002289506e-25
+    }
+  },
+  "rollout_inconsistencies": {
+    "inconsistent_districts": [
+      {
+        "district": "Jhansi ",
+        "state": "Uttar Pradesh",
+        "vaccination_cv": 22.01528715774554
+      },
+      {
+        "district": "Etah ",
+        "state": "Uttar Pradesh",
+        "vaccination_cv": 21.558264819470814
+      },
+      {
+        "district": "Aurangabad ",
+        "state": "Maharastra",
+        "vaccination_cv": 21.171529754621645
+      },
+      {
+        "district": "Paschim Barddhaman ",
+        "state": "West Bengal",
+        "vaccination_cv": 20.987294757837457
+      },
+      {
+        "district": "Parbhani ",
+        "state": "Maharastra",
+        "vaccination_cv": 20.263549320258917
+      },
+      {
+        "district": "Kokrajhar ",
+        "state": "Assam",
+        "vaccination_cv": 20.19068356209315
+      },
+      {
+        "district": "Bastar ",
+        "state": "Chhattisgarh",
+        "vaccination_cv": 19.412307381631845
+      },
+      {
+        "district": "Bilaspur ",
+        "state": "Chhattisgarh",
+        "vaccination_cv": 18.299438356273814
+      },
+      {
+        "district": "Kiphire ",
+        "state": "Nagaland",
+        "vaccination_cv": 18.101566042075127
+      },
+      {
+        "district": "West Karbi Anglong ",
+        "state": "Assam",
+        "vaccination_cv": 18.04980640714805
+      }
+    ],
+    "inconsistency_statistics": {
+      "mean_cv": 7.195775454429066,
+      "std_cv": 4.286615066107223,
+      "total_districts": 461
+    },
+    "districts_needing_attention": "20"
+  },
+  "healthcare_delivery": {
+    "public_vs_private": {
+      "public_mean": 96.38584474885845,
+      "private_mean": 2.379908675799087,
+      "public_samples": 438,
+      "private_samples": 438
+    },
+    "delivery_patterns": {
+      "primary_system": "public"
+    },
+    "recommendations": [
+      "Strengthen public healthcare infrastructure",
+      "Focus resources on government health facilities"
+    ]
+  },
+  "policy_recommendations": {
+    "immediate_actions": [
+      "Emergency intervention in 15 worst-performing districts",
+      "Deploy mobile vaccination units to under-served areas",
+      "Investigate supply chain issues in 20 inconsistent districts"
+    ],
+    "medium_term_strategies": [
+      "Implement state-level performance monitoring",
+      "Share best practices from high-performing states",
+      "Strengthen public healthcare infrastructure",
+      "Focus resources on government health facilities"
+    ],
+    "long_term_monitoring": [
+      "Establish quarterly vaccination coverage reviews",
+      "Implement predictive analytics for early intervention"
+    ],
+    "resource_allocation_priorities": [
+      "Prioritize bottom 10% districts for additional funding",
+      "Allocate logistics support to high-inconsistency regions"
+    ]
+  },
+  "summary": {
+    "total_districts_analyzed": 706,
+    "districts_needing_immediate_attention": 15,
+    "districts_with_rollout_issues": "20",
+    "statistical_evidence_of_disparities": "True"
+  }
+}
