@@ -1,0 +1,329 @@
+{
+  "under_vaccinated_districts": [
+    {
+      "district": "Ukhrul ",
+      "state": "Manipur",
+      "composite_vaccination_score": 48.925
+    },
+    {
+      "district": "Tuensang ",
+      "state": "Nagaland",
+      "composite_vaccination_score": 49.325
+    },
+    {
+      "district": "East Khasi Hills ",
+      "state": "Meghalaya",
+      "composite_vaccination_score": 54.525
+    },
+    {
+      "district": "Kiphire ",
+      "state": "Nagaland",
+      "composite_vaccination_score": 55.575
+    },
+    {
+      "district": "Banas Kantha ",
+      "state": "Gujarat",
+      "composite_vaccination_score": 55.875
+    },
+    {
+      "district": "Longding ",
+      "state": "Arunachal Pradesh",
+      "composite_vaccination_score": 56.650000000000006
+    },
+    {
+      "district": "Hojai ",
+      "state": "Assam",
+      "composite_vaccination_score": 59.125
+    },
+    {
+      "district": "West Karbi Anglong ",
+      "state": "Assam",
+      "composite_vaccination_score": 59.425
+    },
+    {
+      "district": "Jhansi ",
+      "state": "Uttar Pradesh",
+      "composite_vaccination_score": 60.574999999999996
+    },
+    {
+      "district": "Mewat ",
+      "state": "Haryana",
+      "composite_vaccination_score": 61.39999999999999
+    },
+    {
+      "district": "Longleng ",
+      "state": "Nagaland",
+      "composite_vaccination_score": 62.125
+    },
+    {
+      "district": "Bahraich ",
+      "state": "Uttar Pradesh",
+      "composite_vaccination_score": 62.875
+    },
+    {
+      "district": "Allahabad ",
+      "state": "Uttar Pradesh",
+      "composite_vaccination_score": 63.074999999999996
+    },
+    {
+      "district": "Dhule ",
+      "state": "Maharastra",
+      "composite_vaccination_score": 63.5
+    },
+    {
+      "district": "Deoghar ",
+      "state": "Jharkhand",
+      "composite_vaccination_score": 64.675
+    }
+  ],
+  "state_performance": {
+    "full_vaccination_any_source": {
+      "Dadra and Nagar Haveli & Daman and Diu": 100.0,
+      "Odisha": 91.5,
+      "Tamil Nadu": 90.3,
+      "Himachal Pradesh": 87.1,
+      "West Bengal": 85.9,
+      "Uttarakhand": 84.8,
+      "Jammu & Kashmir": 84.9,
+      "Karnataka": 82.7,
+      "Telangana": 81.2,
+      "Kerala": 83.5,
+      "Rajasthan": 80.4,
+      "Chhattisgarh": 80.3,
+      "Haryana": 78.0,
+      "Madhya Pradesh": 79.2,
+      "NCT of Delhi": 75.9,
+      "Punjab": 75.0,
+      "Gujarat": 76.9,
+      "Jharkhand": 75.2,
+      "Bihar": 72.4,
+      "Maharastra": 72.6,
+      "Andhra Pradesh": 71.8,
+      "Mizoram": 73.9,
+      "Uttar Pradesh": 70.1,
+      "Assam": 66.7,
+      "Tripura": 67.2,
+      "Meghalaya": 69.6,
+      "Arunachal Pradesh": 65.4,
+      "Manipur": 63.6,
+      "Nagaland": 52.7,
+      " Lakshadweep ": NaN,
+      "Andaman & Nicobar Islands": NaN,
+      "Chandigarh": NaN,
+      "Goa": NaN,
+      "Ladakh": NaN,
+      "Puducherry": NaN,
+      "Sikkim": NaN
+    },
+    "polio_3_doses": {
+      "Dadra and Nagar Haveli & Daman and Diu": 100.0,
+      "Odisha": 92.3,
+      "Tamil Nadu": 92.5,
+      "Himachal Pradesh": 89.6,
+      "West Bengal": 88.4,
+      "Uttarakhand": 88.1,
+      "Jammu & Kashmir": 86.9,
+      "Karnataka": 87.5,
+      "Telangana": 83.8,
+      "Kerala": 86.7,
+      "Rajasthan": 84.5,
+      "Chhattisgarh": 84.4,
+      "Haryana": 81.4,
+      "Madhya Pradesh": 83.0,
+      "NCT of Delhi": 79.6,
+      "Punjab": 79.3,
+      "Gujarat": 80.5,
+      "Jharkhand": 78.2,
+      "Bihar": 76.6,
+      "Maharastra": 78.0,
+      "Andhra Pradesh": 74.4,
+      "Mizoram": 79.6,
+      "Uttar Pradesh": 74.9,
+      "Assam": 73.3,
+      "Tripura": 70.3,
+      "Meghalaya": 74.0,
+      "Arunachal Pradesh": 69.3,
+      "Manipur": 72.7,
+      "Nagaland": 61.8,
+      " Lakshadweep ": NaN,
+      "Andaman & Nicobar Islands": NaN,
+      "Chandigarh": NaN,
+      "Goa": NaN,
+      "Ladakh": NaN,
+      "Puducherry": NaN,
+      "Sikkim": NaN
+    },
+    "dpt_3_doses": {
+      "Dadra and Nagar Haveli & Daman and Diu": 100.0,
+      "Odisha": 95.4,
+      "Tamil Nadu": 94.5,
+      "Himachal Pradesh": 94.4,
+      "West Bengal": 94.4,
+      "Uttarakhand": 93.5,
+      "Jammu & Kashmir": 90.5,
+      "Karnataka": 90.7,
+      "Telangana": 91.3,
+      "Kerala": 88.8,
+      "Rajasthan": 89.7,
+      "Chhattisgarh": 87.8,
+      "Haryana": 89.5,
+      "Madhya Pradesh": 87.6,
+      "NCT of Delhi": 85.2,
+      "Punjab": 89.0,
+      "Gujarat": 86.0,
+      "Jharkhand": 86.5,
+      "Bihar": 85.7,
+      "Maharastra": 83.8,
+      "Andhra Pradesh": 85.4,
+      "Mizoram": 82.5,
+      "Uttar Pradesh": 81.2,
+      "Assam": 81.0,
+      "Tripura": 81.5,
+      "Meghalaya": 79.0,
+      "Arunachal Pradesh": 76.0,
+      "Manipur": 76.0,
+      "Nagaland": 66.2,
+      " Lakshadweep ": NaN,
+      "Andaman & Nicobar Islands": NaN,
+      "Chandigarh": NaN,
+      "Goa": NaN,
+      "Ladakh": NaN,
+      "Puducherry": NaN,
+      "Sikkim": NaN
+    },
+    "measles_first_dose": {
+      "Dadra and Nagar Haveli & Daman and Diu": 100.0,
+      "Odisha": 96.5,
+      "Tamil Nadu": 95.3,
+      "Himachal Pradesh": 95.8,
+      "West Bengal": 94.3,
+      "Uttarakhand": 93.8,
+      "Jammu & Kashmir": 90.0,
+      "Karnataka": 90.2,
+      "Telangana": 92.4,
+      "Kerala": 89.1,
+      "Rajasthan": 91.2,
+      "Chhattisgarh": 89.5,
+      "Haryana": 90.1,
+      "Madhya Pradesh": 88.2,
+      "NCT of Delhi": 90.4,
+      "Punjab": 87.7,
+      "Gujarat": 86.2,
+      "Jharkhand": 87.8,
+      "Bihar": 86.8,
+      "Maharastra": 85.7,
+      "Andhra Pradesh": 84.6,
+      "Mizoram": 79.9,
+      "Uttar Pradesh": 83.8,
+      "Assam": 82.5,
+      "Tripura": 82.8,
+      "Meghalaya": 78.4,
+      "Arunachal Pradesh": 79.7,
+      "Manipur": 71.1,
+      "Nagaland": 70.4,
+      " Lakshadweep ": NaN,
+      "Andaman & Nicobar Islands": NaN,
+      "Chandigarh": NaN,
+      "Goa": NaN,
+      "Ladakh": NaN,
+      "Puducherry": NaN,
+      "Sikkim": NaN
+    },
+    "composite_vaccination_score": {
+      "Dadra and Nagar Haveli & Daman and Diu": 100.0,
+      "Odisha": 93.9,
+      "Tamil Nadu": 93.2,
+      "Himachal Pradesh": 91.7,
+      "West Bengal": 90.7,
+      "Uttarakhand": 90.0,
+      "Jammu & Kashmir": 88.1,
+      "Karnataka": 87.8,
+      "Telangana": 87.2,
+      "Kerala": 87.0,
+      "Rajasthan": 86.5,
+      "Chhattisgarh": 85.5,
+      "Haryana": 84.8,
+      "Madhya Pradesh": 84.5,
+      "NCT of Delhi": 82.8,
+      "Punjab": 82.7,
+      "Gujarat": 82.4,
+      "Jharkhand": 81.9,
+      "Bihar": 80.4,
+      "Maharastra": 80.0,
+      "Andhra Pradesh": 79.1,
+      "Mizoram": 79.0,
+      "Uttar Pradesh": 77.5,
+      "Assam": 75.9,
+      "Tripura": 75.4,
+      "Meghalaya": 75.3,
+      "Arunachal Pradesh": 72.6,
+      "Manipur": 70.9,
+      "Nagaland": 62.7,
+      " Lakshadweep ": NaN,
+      "Andaman & Nicobar Islands": NaN,
+      "Chandigarh": NaN,
+      "Goa": NaN,
+      "Ladakh": NaN,
+      "Puducherry": NaN,
+      "Sikkim": NaN
+    }
+  },
+  "inconsistent_districts": [
+    {
+      "district": "Jhansi ",
+      "state": "Uttar Pradesh",
+      "vaccination_cv": 22.01528715774554
+    },
+    {
+      "district": "Etah ",
+      "state": "Uttar Pradesh",
+      "vaccination_cv": 21.558264819470814
+    },
+    {
+      "district": "Aurangabad ",
+      "state": "Maharastra",
+      "vaccination_cv": 21.171529754621645
+    },
+    {
+      "district": "Paschim Barddhaman ",
+      "state": "West Bengal",
+      "vaccination_cv": 20.987294757837457
+    },
+    {
+      "district": "Parbhani ",
+      "state": "Maharastra",
+      "vaccination_cv": 20.263549320258917
+    },
+    {
+      "district": "Kokrajhar ",
+      "state": "Assam",
+      "vaccination_cv": 20.19068356209315
+    },
+    {
+      "district": "Bastar ",
+      "state": "Chhattisgarh",
+      "vaccination_cv": 19.412307381631845
+    },
+    {
+      "district": "Bilaspur ",
+      "state": "Chhattisgarh",
+      "vaccination_cv": 18.299438356273814
+    },
+    {
+      "district": "Kiphire ",
+      "state": "Nagaland",
+      "vaccination_cv": 18.101566042075127
+    },
+    {
+      "district": "West Karbi Anglong ",
+      "state": "Assam",
+      "vaccination_cv": 18.04980640714805
+    }
+  ],
+  "key_insights": {
+    "total_districts_analyzed": 706,
+    "average_composite_score": 82.33790672451194,
+    "districts_needing_attention": "2",
+    "high_inconsistency_districts": "6"
+  }
+}
