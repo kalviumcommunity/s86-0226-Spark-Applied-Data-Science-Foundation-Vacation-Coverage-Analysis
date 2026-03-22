@@ -2,13 +2,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def analyze_temporal_trends(input_path='data/raw/datafile.csv', output_visual_path='visuals/outreach_trends.png'):
+def analyze_temporal_trends(input_path='data/raw/datafile.csv', output_visual_path='visuals/outreach_trends.png', output_csv_path='data/processed/temporal_analysis.csv'):
     """
     Analyzes temporal trends in vaccination coverage by comparing two age cohorts.
 
     Args:
         input_path (str): Path to the raw data file.
         output_visual_path (str): Path to save the output visualization.
+        output_csv_path (str): Path to save the processed temporal data.
     """
     # Load the dataset
     try:
@@ -87,6 +88,13 @@ def analyze_temporal_trends(input_path='data/raw/datafile.csv', output_visual_pa
     ax.spines['right'].set_visible(False)
     ax.spines['top'].set_visible(False)
     ax.spines['bottom'].set_position(('outward', 10))
+
+    # Save the processed data for the dashboard
+    try:
+        sorted_df.to_csv(output_csv_path, index=False)
+        print(f"Temporal analysis data saved to {output_csv_path}")
+    except Exception as e:
+        print(f"Error saving temporal data: {e}")
 
     plt.tight_layout()
     
