@@ -1,5 +1,5 @@
 {
-  "analysis_timestamp": "2026-03-10T15:30:29.865302",
+  "analysis_timestamp": "2026-03-23T14:41:33.185961",
   "regional_disparities": {
     "under_vaccinated_districts": [
       {
@@ -199,7 +199,7 @@
     ],
     "inconsistency_statistics": {
       "mean_cv": 7.195775454429066,
-      "std_cv": 4.286615066107223,
+      "std_cv": 4.28661506610722,
       "total_districts": 461
     },
     "districts_needing_attention": "20"

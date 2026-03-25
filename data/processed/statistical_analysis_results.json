@@ -1,0 +1,29 @@
+{
+  "analysis_date": "2026-03-22T21:19:57.398354",
+  "methodology": {
+    "regional_test": "Kruskal-Wallis H-test",
+    "correlation_method": "Pearson correlation",
+    "consistency_measure": "Coefficient of Variation",
+    "paired_comparison": "Wilcoxon signed-rank test",
+    "confidence_level": 0.95
+  },
+  "findings": {
+    "regional_disparities_significant": true,
+    "rollout_inconsistencies_detected": true,
+    "healthcare_system_differences": true,
+    "key_correlations": [],
+    "confidence_intervals": {
+      "mean_inconsistency": "[6.8%, 7.6%]"
+    },
+    "sample_sizes": {
+      "total_districts": 706,
+      "districts_with_composite_score": "461",
+      "states_analyzed": 32
+    }
+  },
+  "sample_sizes": {
+    "total_districts": 706,
+    "districts_with_composite_score": "461",
+    "states_analyzed": 32
+  }
+}

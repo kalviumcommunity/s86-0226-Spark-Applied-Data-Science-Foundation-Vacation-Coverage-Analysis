@@ -1,104 +1,68 @@
 ﻿# Vaccination Coverage Analysis - Regional Disparities & Policy Insights
 
-## Overview
+## What's This All About?
 
-Government health departments publish vaccination data, but decision-makers often lack clear visibility into regional disparities. This project applies the **Question → Data → Insight** data science lifecycle to turn public vaccination data into actionable guidance for public health planning.
+Imagine you're a public health official. You have a ton of data about vaccinations across the country, but it's just a giant spreadsheet. How do you quickly figure out which areas need the most help? This project is designed to solve that problem.
 
-## Problem Statement
+We take raw vaccination data and turn it into clear, actionable insights. Our goal is to help decision-makers spot under-vaccinated regions, find issues in the vaccine rollout, and understand how vaccination rates are changing over time.
 
-This analysis addresses three core public health challenges:
+## What We've Done
 
-- **Identify under-vaccinated regions** requiring immediate intervention
-- **Detect rollout inconsistencies** indicating supply chain or logistics issues
-- **Understand regional disparities** with statistical validation for policy decisions
+We've already completed a deep analysis of the data, which includes:
 
-## Completed Analysis
+- **Cleaning the Data**: We've taken the raw data and cleaned it up to make sure it's accurate and consistent.
+- **Finding Key Insights**: We've identified the 15 districts that need the most urgent help and 20 districts where the vaccine rollout seems to be inconsistent.
+- **Statistical Proof**: We've used statistical tests to prove that the differences we're seeing between regions are real and not just due to random chance.
+- **Temporal Analysis**: We've analyzed how vaccination coverage is changing over time by comparing different age groups.
 
-### 1) Question-Driven Approach ✅
+## Interactive Dashboard & Predictive Model
 
-**Core Question:** Which regions are under-vaccinated, where are rollout inconsistencies occurring, and how are vaccination trends changing over time?
+To make our findings even more accessible, we've built two new features:
 
-**Why this matters:**
+### 1. Interactive Dashboard
 
-- Targets real decision-making gaps in public health policy
-- Prioritizes equity and disparities over raw coverage totals
-- Provides statistical evidence for resource allocation decisions
+We've created an interactive dashboard that lets you explore the data for yourself. You can filter by state to see how different districts are performing and view the trends in vaccination coverage over time.
 
-### 2) Data Processing & Quality Assurance ✅
+**How to run the dashboard:**
 
-**Dataset:** Indian vaccination coverage data (706 districts, 36 states/UTs)
+1.  Make sure you have the required libraries installed:
+    ```bash
+    pip install -r requirements.txt
+    ```
+2.  Run the following command in your terminal:
+    ```bash
+    streamlit run src/dashboard/interactive_dashboard.py
+    ```
 
-- Regional vaccination coverage rates across multiple vaccine types
-- Public vs private healthcare facility usage patterns
-- Comprehensive data cleaning and validation pipeline
-- Quality checks for completeness and reporting consistency
+### 2. Predictive Model
 
-**Key Metrics Analyzed:**
+We've also built a simple predictive model to understand what factors are most important for achieving high vaccination coverage. Our model found that the coverage of the Polio vaccine is the strongest predictor of full immunization. This suggests that the infrastructure and outreach for the Polio vaccine program are very effective and could be a model for other vaccination efforts.
 
-- BCG, Polio, DPT, Measles vaccination coverage
-- Full vaccination rates (card-based and recall-based)
-- Healthcare delivery system utilization
+You can retrain the model by running:
 
-### 3) Evidence-Based Insights ✅
+```bash
+python src/models/train_model.py
+```
 
-**Statistical Analysis Completed:**
+## How This Helps
 
-- Kruskal-Wallis testing for regional differences (p < 0.05 significance found)
-- Coefficient of variation analysis for rollout consistency
-- Correlation analysis between vaccination types
-- Public vs private healthcare delivery effectiveness
+This project helps public health officials make better decisions by:
 
-## Key Findings
+- **Focusing Resources**: By identifying the areas that need the most help, we can make sure that resources are sent where they're needed most.
+- **Improving Logistics**: By spotting inconsistencies in the vaccine rollout, we can help fix supply chain and logistics issues.
+- **Providing Clear Evidence**: Our statistical analysis gives policymakers the evidence they need to make informed decisions.
 
-### 🚨 Critical Disparities Identified
+## Technical Details
 
-- **15 districts** require immediate emergency intervention (composite score < 50%)
-- **20 districts** show severe rollout inconsistencies (CV > 2 standard deviations)
-- **Statistically significant** state-level differences in vaccination coverage
-- **Public healthcare dominance:** 96.4% vs 2.4% private facility usage
+For those interested in the technical side of things, this project uses Python and a number of popular data science libraries. The analysis is done in a series of Jupyter notebooks and Python scripts:
 
-### 📊 Worst Performing Region
+1.  **[Data Cleaning](notebooks/01_data_cleaning.ipynb)**: Preparing the data for analysis.
+2.  **[EDA & Visualizations](notebooks/02_eda_visualizations.ipynb)**: Exploring the data and creating visualizations.
+3.  **[Temporal Analysis](src/analysis/temporal_analysis.py)**: Analyzing trends over time.
+4.  **[Predictive Model](src/models/train_model.py)**: Training a model to predict vaccination coverage.
+5.  **[Interactive Dashboard](src/dashboard/interactive_dashboard.py)**: An interactive dashboard to explore the data.
 
-**Ukhrul, Manipur** - 48.9% composite vaccination score
-
-- Requires immediate targeted intervention
-- Represents systematic challenges requiring multi-vaccine approach
-
-### 🔄 Rollout Inconsistency Leader
-
-**Jhansi District** - 22.0% coefficient of variation
-
-- Large gaps between different vaccine coverage rates
-- Indicates supply chain or logistics challenges
-
-## Policy Recommendations
-
-### 🚨 Immediate Actions (0-3 months)
-
-- Emergency intervention in 15 worst-performing districts
-- Deploy mobile vaccination units to under-served areas
-- Investigate supply chain issues in 20 inconsistent districts
-
-### 🚀 Medium-Term Strategies (3-12 months)
-
-- Implement state-level performance monitoring systems
-- Share best practices from high-performing states
-- Strengthen public healthcare infrastructure
-- Focus resources on government health facilities
-
-### 📈 Long-Term Monitoring (1+ years)
-
-- Establish quarterly vaccination coverage reviews
-- Implement predictive analytics for early intervention
-- Regular statistical testing to track improvement trends
-
-## Technical Implementation
-
-### Notebooks & Analysis Pipeline
-
-1. **[Data Cleaning](notebooks/01_data_cleaning.ipynb)** - Quality assurance and preparation
-2. **[EDA & Visualizations](notebooks/02_eda_visualizations.ipynb)** - Pattern identification and visualization
-3. **[Statistical Analysis](notebooks/03_statistical_analysis.ipynb)** - Hypothesis testing and validation
+6.  **[Statistical Analysis](notebooks/03_statistical_analysis.ipynb)** - Hypothesis testing and validation
 
 ### Automated Analysis Script
 
